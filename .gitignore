@@ -1,0 +1,54 @@
+# Credentials OAuth — JANGAN pernah commit
+client_secret.json
+token.pickle
+
+# Database riwayat upload
+upload_history.db
+
+# File metadata yang digenerate
+metadata.csv
+
+# Log
+logs/
+
+# Laporan
+reports/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+
+# Perlindungan tambahan OAuth
+client_secret*.json
+*client_secret*.json
+token*.json
+token*.pickle
+*.pickle
+.env
+.env.*
+
+# Database dan file pendukungnya
+*.db*
+*.sqlite*
+
+# Rekaman video pribadi
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+
+# File sementara Python
+.venv/
+venv/
+*.log
